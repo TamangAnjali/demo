@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.h1{
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    height: 1200px;
+    width:560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title{
+    font-size: 50px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label ,input ,select{
+    margin:14px;
+    width:400px;
+    height:30px;
+}
+button{
+    margin:14px;
+    height:35px;
+    background-color: rgb(3, 108, 24);
+    border: none;
+    width: 400px;
+    font-size: 18px;
+    color: aliceblue;
+}
+form{
+    box-shadow: 0 0 15px rgb(90, 87, 87);
+}
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="website.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<body>
+    <header>
+        <div class="container">
+          <h1><i class="fa-brands fa-airbnb"></i>SPAMS Library</h1>
+        <div class="logo">
+        </div>
+          <div class="container">
+           <nav class="nav-links">
+            <ul>
+              <li><a href=""><i class="fa-solid fa-house"></i> Dashboard</a></li>
+              <li><a href=""><i class="fa-solid fa-person-dress"></i> Profile</a></li>
+              <li><a href="Bookform.html"><i class="fa-solid fa-address-book"></i> Book Request</a></li>
+              <li><a href="add new.html"><i class="fa-solid fa-bookmark"></i> Library</a></li>
+              <li><a href=""><i class="fa-solid fa-lock"></i> Management</a></li>
+              <li><a href=""><i class="fa-solid fa-gears"></i> Setting</a></li>
+              <li><a href=""><i class="fa-solid fa-sliders"></i> Database Management</a></li>
+            </ul>
+          </nav>
+        </div>
+  
+        <br>
+          <div class="logout">
+              <a href="">Logout</a>
+            </div>
+          </div>
+  </header>
+  <br>
+  <br>
+  
+  <div class="flex-container">
+    <div  id="gradient1"><i class="fa-solid fa-user"></i> <br>0<br> Total Members</div>
+    <div id="gradient2"><i class="fa-solid fa-book"></i><br>0<br>Total Books</div>
+    <div id="gradient3"><a href="issue.html"></a><i class="fa-solid fa-square-xmark"></i></i> <br>0<br>Total Issue</div>
+    <div id="gradient4"><a href="return.html"></a><i class="fa-solid fa-rotate-left"></i><br>0<br>Total Return</div>
+  </div>
+  
+  <div class="recent-circulation">
+    <div class="header1">
+      <h2>Recent Circulation</h2>
+      <button class="add-issue"><a href="#"><i class="fa-solid fa-plus"></i>Add Issue</a></button>
+    </div> 
+    <table class="circulation-table">
+        <thead>
+            <tr>
+                <th>Member Id</th>
+                <th>Book Id</th>
+                <th>Issue Date</th>
+                <th>Due Date</th>
+                <th>Return Date</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="7" class="no-data">No data available in table</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+  <footer>
+    <h3>&copy;All Right Reserved</h3>
+  </footer>
+ 
+ 
+</body>
+</html>
